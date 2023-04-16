@@ -4,7 +4,8 @@ import { fetchTopCountrySongs } from "../utils/dataFetching";
 import { useState, useEffect } from "react";
 import usePlayerStore from "../zustand/playerStore";
 import { useQuery } from "@tanstack/react-query";
-const GEO_API_KEY = import.meta.env.VITE_GEO_API_KEY;
+// const GEO_API_KEY = import.meta.env.VITE_GEO_API_KEY;
+const GEO_API_KEY = "at_gNhDmaR906kOHMK01sbfsjtt0QNgj";
 
 const CountryTracks = () => {
   const [country, setCountry] = useState("");

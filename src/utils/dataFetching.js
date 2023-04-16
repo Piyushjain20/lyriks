@@ -1,4 +1,4 @@
-const SHAZAM_API_KEY = import.meta.env.VITE_SHAZAM_RAPID_API_KEY;
+const SHAZAM_API_KEY = "8de2d86256msh7265d95229450c2p1c8a70jsnb15ef60d6fa8";
 
 const options = {
   method: "GET",
